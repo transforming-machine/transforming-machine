@@ -1,17 +1,17 @@
-# Name-of-the-Machine
-A Machine that thinks.
+# Transforming-Machine
+A machine that transforms meanings and texts.
 
 In order to launch it from the command line or as a Python subprocess:
 ```bash
-echo "Theodotos-Alexandreus: Are language models seeking the Truth, machine?" \
-  | uvx name-of-the-machine \
+echo "Theodotos-Alexandreus: Transform this idea into an essay, machine" \
+  | uvx transforming-machine \
     --provider-api-key sk-proj-... \
     --github-token ghp_... 
 ```
 
 Or, with a local pip installation:
 ```bash
-pip install name-of-the-machine
+pip install transforming-machine
 ```
 Set the environment variables:
 ```bash
@@ -20,19 +20,19 @@ export GITHUB_TOKEN="ghp_..."
 ```
 Then:
 ```bash
-name-of-the-machine -a multilogue.txt
+transforming-machine -a multilogue.txt
 ```
 Or:
 ```bash
-name-of-the-machine multilogue.txt > response.txt
+transforming-machine multilogue.txt > response.txt
 ```
 Or:
 ```bash
-name-of-the-machine -a multilogue.txt > tmp && echo tmp > multilogue.txt
+transforming-machine -a multilogue.txt > tmp && echo tmp > multilogue.txt
 ```
 
 Or use it in your Python code:
 ```Python
 # Python
-import name_of_the_machine
+import transforming_machine
 ```
